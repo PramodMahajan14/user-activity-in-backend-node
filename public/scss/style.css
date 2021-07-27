@@ -1,0 +1,128 @@
+
+body{
+   margin: 0;
+   min-height:100%;
+}
+/*#############################################-Login&Registration-############################*/
+#login-back{
+    margin-top: 3rem;
+        display: flex;
+        justify-content: center;      
+}
+#login-box{
+    width: 20rem;
+    height: 25rem;
+    background:linear-gradient(140deg,rgb(55, 43, 236),rgba(178, 48, 204, 0.842));
+    text-align: center;
+    border-radius: 0.65rem;
+   box-shadow: 2px 2px 2px black;
+    display: table-row;
+    margin: 0;
+}
+ input{
+    font-family: inherit;
+    width: 60%;
+    border: 0;
+    border-bottom: 2px solid whitesmoke;
+    outline: 0;
+    font-size: 0.90rem;
+    color: white;
+    padding: 5px 0;
+    background: transparent;
+    transition: border-color 0.2s; 
+    margin-top: 0.12rem;    
+}
+.check-box{
+    display:inline;
+    margin:0px;
+    flex-basis: inherit;
+}
+#user{
+    margin-right: 0.50rem;
+}
+#pass{
+    margin-right: 0.50rem;
+}
+
+.btn{
+    border: none;
+    margin-top: 1.50rem;
+    text-decoration: none;
+    outline: none;
+    width: 6.88rem;
+    height: 1.35rem;
+    text-align: center;
+    background-color: rgba(13, 185, 13, 0.877);
+    border-radius: 0.78rem;
+    color:ivory;
+    align-items: center;
+    bottom:0.76rem;
+    top:0.76rem
+}
+::placeholder{
+    color: honeydew;
+}
+button:hover{
+    background-color: rgba(10, 197, 10, 0.63);
+}
+
+#registration-content{    margin-top: 3rem;
+    display: flex;
+    justify-content: center;  
+}
+#registration-content-box{
+    width: 20rem;
+    height: 27rem;
+    background:linear-gradient(145deg,rgb(55, 43, 236),rgba(178, 48, 204, 0.842));
+    text-align: center;
+    border-radius: 0.65rem;
+   box-shadow: 2px 2px 2px white;
+    display: -webkit-flex;
+    margin: 0;
+    color: wheat;  
+}
+label{
+    margin-right: 1rem;
+    color: black;
+}
+form{
+    margin-top: 4rem;
+}
+
+/*#############################################-Header-#############################*/
+.menu{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 1.45rem;
+   background-color: rgb(120, 44, 173);
+
+    width: 100%;
+    min-height: 2.75rem;
+  padding: 0 1rem;
+}
+.listitem,.lastitem,.useritem{
+    color: #ebebeb;
+    text-decoration: none;
+}
+.listitem,.useritem{
+    margin-right: 2rem;
+}
+.lastitem {
+    margin-right: auto; 
+    background: transparent;
+}
+.lastitem img{
+    height: 1.74rem;
+    width: 4rem; 
+}
+.useritem{
+    font-size: 1.35rem;
+}
+
+@media screen and (max-width: 600px){
+    #login-box{
+        width: 30rem;
+        height: 35rem;
+    }
+}
